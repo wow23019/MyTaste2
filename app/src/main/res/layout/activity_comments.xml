@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.mytaste2.CommentsActivity">
+
+    <EditText
+        android:id="@+id/comment_Text"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="@string/comment"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/comment_add_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/comment_add_btn"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="@string/add_commnet"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/comment_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/comment_Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

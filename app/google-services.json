@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207747057205",
+    "project_id": "mytaste2-fc10e",
+    "storage_bucket": "mytaste2-fc10e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207747057205:android:09c2ea148721a7725a137c",
+        "android_client_info": {
+          "package_name": "com.example.mytaste2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207747057205-f540s7t7f8rauvs5pm8gaifj2jsg0rg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd4prDhBJUTGgU5fpwi3bgRlL5vlQJ5Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207747057205-f540s7t7f8rauvs5pm8gaifj2jsg0rg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

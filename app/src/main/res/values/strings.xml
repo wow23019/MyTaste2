@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyTaste2</string>
+    <string name="enter_email">Enter Your Email</string>
+    <string name="enter_pass">Enter Your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in_text">Already Registered ! Sign In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_registered" />
+    <string name="already_registered">Already Registered !! Sign In</string>
+    <string name="not_reg">Not Registered Yet ? Sign Up</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="my_profile">My Profile</string>
+    <string name="enter_name">Enter Your Name</string>
+    <string name="save">Save</string>
+    <string name="caption">Write Caption</string>
+    <string name="addpost">Add Post</string>
+    <string name="likes">0 Likes</string>
+    <string name="comment">Write Comment here</string>
+    <string name="add_commnet">Add Comment</string>
+    <string name="verify_email">VERIFY EMAIL</string>
+    <string name="input_your_text_here">Input your text here</string>
+    <string name="comments">0 comments</string>
+</resources>
